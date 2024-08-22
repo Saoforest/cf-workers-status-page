@@ -15,14 +15,14 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: xiaolin-blog
-    name: 'XiaoLin's Blog'
+  - id: blog
+    name: 'XiaoLins Blog'
     url: 'https://xiaolinz.top'
     method: GET
     expectStatus: 200
     linkable: false
     
-  - id: tiegangan-git
+  - id: gitlab
     name: 'Tiegangan GitLab'
     url: 'https://git.tiegangan.top'
     method: GET

@@ -20,7 +20,7 @@ monitors:
     url: 'https://xiaolinz.top'
     method: GET
     expectStatus: 200
-    linkable: false
+    linkable: true
     
   - id: gitlab
     name: 'Tiegangan GitLab'
@@ -28,4 +28,4 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
-    linkable: false
+    linkable: true

@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: blog
-    name: 'XiaoLins Blog'
+    name: "XiaoLin's Blog"
     url: 'https://xiaolinz.top'
     method: GET
     expectStatus: 200
